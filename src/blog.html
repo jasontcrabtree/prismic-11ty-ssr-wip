@@ -1,0 +1,29 @@
+---
+layout: layouts/base.html
+title: 'Eleventy Quickstart'
+description:
+image:
+imageAlt:
+canonical:
+permalink:
+---
+
+<h1>Blog!</h1>
+
+<section>
+    <ul>
+        {%- for post in collections.blog -%}
+        <li>
+            {% if post.data.image %}
+            <img loading="lazy" width="1200" src="{{post.data.image}}" alt="{{post.data.imageAlt}}" />
+            {% endif %}
+
+            <date>{{- post.date | date: "%Y-%m-%d" -}}</date>
+
+            <a href="{{post.url}}">
+                {{- post.data.title -}}
+            </a>
+        </li>
+        {%- endfor -%}
+    </ul>
+</section>

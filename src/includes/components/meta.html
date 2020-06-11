@@ -1,0 +1,64 @@
+<meta content="{{- title | default: metadata.siteName -}}" name="title" />
+<meta
+  content="{{- title | default: metadata.siteName -}}"
+  property="og:title"
+/>
+<meta
+  content="{{- title | default: metadata.siteName -}}"
+  property="og:site_name"
+/>
+<meta
+  content="{{- title | default: metadata.siteName -}}"
+  property="twitter:title"
+/>
+
+<meta content="{{- metadata.siteAuthor -}}" name="twitter:site" />
+<meta content="{{- metadata.siteAuthor -}}" name="twitter:creator" />
+
+<meta
+  name="description"
+  content="{{- description | default: metadata.siteDescription -}}"
+/>
+<meta
+  property="og:description"
+  content="{{- description | default: metadata.siteDescription -}}"
+/>
+<meta
+  property="twitter:description"
+  content="{{- description | default: metadata.siteDescription -}}"
+/>
+
+<meta
+  name="twitter:image:alt"
+  content="{{- imageAlt | default: metadata.imageAlt -}}"
+/>
+<meta
+  property="og:image:secure_url"
+  content="{{- image | default: metadata.socialImage -}}"
+/>
+<meta
+  property="twitter:image"
+  content="{{- image | default: metadata.socialImage -}}"
+/>
+
+<meta
+  content="{{- image | default: metadata.socialImage -}}"
+  property="og:image"
+/>
+<meta
+  content="{{- image | default: metadata.socialImage -}}"
+  property="twitter:image"
+/>
+
+<meta content="{{- metadata.siteURL -}}" property="twitter:url" />
+<meta
+  content="{{- metadata.siteURL -}}/{{- canonical | default: -}}"
+  property="og:url"
+/>
+<link
+  href="{{- metadata.siteURL -}}/{{-canonical | default: -}}"
+  rel="canonical"
+/>
+
+<meta content="website" property="og:type" />
+<meta content="summary_large_image" property="twitter:card" />

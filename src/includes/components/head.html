@@ -1,0 +1,11 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>{{ title | default: metadata.siteName -}}</title>
+
+    <link href="/theme.css" rel="stylesheet" />
+
+    {%- include ./components/meta.html -%}
+
+    <link href="../../static/star.svg" rel="icon" type="image/png" />
+</head>

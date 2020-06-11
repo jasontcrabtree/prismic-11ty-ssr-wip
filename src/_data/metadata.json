@@ -1,0 +1,12 @@
+{
+  "siteName": "Eleventy Quickstart",
+  "siteURL": "https://jasontcrabtree.com",
+  "siteAuthor": "Jason",
+  "socialImage": "https://twitter.com/jasontcrabtree/photo",
+  "imageAlt": "Jason says, it's me.",
+  "siteDescription": "Eleventy Quickstart File Structure. Features: Components, CSS Consolidation, Static Folder, Simple easy to use HTML/CSS Structure",
+  "author": {
+    "name": "Jason Crabtree",
+    "email": "jasontcrabtree@gmail.com"
+  }
+}

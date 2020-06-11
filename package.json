@@ -1,0 +1,17 @@
+{
+  "name": "11ty-quickstart",
+  "version": "1.0.0",
+  "description": "Eleventy quickstart project utilising approachable HTML, CSS file aggregation & liquid includes for repeatable HTML components.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Eleventy, liquid, HTML, CSS, @jasontcrabtree"
+  ],
+  "author": "@jasontcrabtree",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}

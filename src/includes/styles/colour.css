@@ -1,0 +1,9 @@
+html {
+  color: rgb(255, 217, 236);
+  background-color: #010101;
+}
+
+a:any-link {
+  color: hotpink;
+  font-weight: bold;
+}
